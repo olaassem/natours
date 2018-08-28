@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "advanced css project: landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olaassem/natours.git"
+  },
+  "author": "ola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olaassem/natours/issues"
+  },
+  "homepage": "https://github.com/olaassem/natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
