@@ -3,6 +3,8 @@
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
+$color-grey-dark: #777;
+$color-white: #fff;
 
 
 
@@ -33,7 +35,7 @@ html{
   font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
-  color: #777;
+  color: $color-grey-dark;
   padding: 3rem;
   box-sizing: border-box;
 }
@@ -71,7 +73,7 @@ html{
 }
 
 .heading-primary{
-  color: #fff;
+  color: $color-white;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
@@ -163,8 +165,8 @@ html{
 }
 
 .btn--white{
-    background-color: #fff;
-    color: #777;
+    background-color: $color-white;
+    color: $color-grey-dark;
 }
 
  .btn::after{
@@ -181,7 +183,7 @@ html{
 }
 
 .btn--white::after{
-  background-color: white;
+  background-color: $color-white;
 }
 
 .btn:hover::after{
