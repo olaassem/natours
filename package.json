@@ -18,5 +18,6 @@
   "homepage": "https://github.com/olaassem/natours#readme",
   "devDependencies": {
     "node-sass": "^4.9.3"
-  }
+  },
+  "dependencies": {}
 }
